@@ -1,0 +1,39 @@
+/* Responsiveness */
+
+@media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  body {
+    padding: 0.75rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .filters button {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .gallery img {
+    height: 180px;
+  }
+
+  .close {
+    font-size: 1.75rem;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+
+

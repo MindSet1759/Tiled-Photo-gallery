@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+  <header>
+    <h1>Photo Gallery</h1>
+
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="portrait">Portrait</button>
+      <button data-filter="urban">Urban</button>
+    </div>
+  </header>
+
+   <!-- Main Section-->
+  
+
+   
+<div class="gallery">
+    <div><img src="Images/14.jpg" alt="Gallery image" data-category="urban"></div>
+    <div><img src="Images/1.jpg" alt="Gallery image" data-category="nature"></div>
+    <div><img src="Images/9.jpg" alt="Gallery image" data-category="nature"></div>
+
+    <div><img src="Images/20.avif.jpg" alt="Gallery image" data-category="urban"></div>
+    <div><img src="Images/5.webp.jpg" alt="Gallery image" data-category="urban"></div>
+    <div><img src="Images/2.jpg" alt="Gallery image" data-category="nature"></div>
+
+    <div><img src="Images/16.avif.jpg" alt="Gallery image" data-category="portrait"></div>
+    <div><img src="Images/13.avif.jpg" alt="Gallery image" data-category="urban"></div>
+    <div><img src="Images/4.jpg" alt="Gallery image" data-category="nature"></div>
+
+    <div><img src="Images/12.jpeg" alt="Gallery image" data-category="urban"></div>
+
+    <div><img src="Images/15.jpg" alt="Gallery image" data-category="urban"></div>
+    <div><img src="Images/18.png.jpg" alt="Gallery image" data-category="urban"></div>
+
+    <div><img src="Images/17.jpg" alt="Gallery image" data-category="portrait"></div>
+    <div><img src="Images/19.jpg" alt="Gallery image" data-category="urban"></div>
+    <div><img src="Images/17.jpg" alt="Gallery image" data-category="portrait"></div>
+
+    <div><img src="Images/3.jpg" alt="Gallery image" data-category="nature"></div>
+    <div><img src="Images/10.avif.jpg" alt="Gallery image" data-category="nature"></div>
+    <div><img src="Images/6.avif.jpg" alt="Gallery image" data-category="nature"></div>
+
+
+    
+</div>
+
+
+  <!-- Lightbox -->
+  <div class="lightbox hidden">
+    <button class="close">&times;</button>
+    <img class="lightbox-image" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
